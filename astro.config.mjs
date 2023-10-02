@@ -8,7 +8,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://zen-en-tonal.github.io", // replace this with your deployed domain
-  base: "/alkaloid_and_magic",
   integrations: [
     tailwind({
       applyBaseStyles: false,
